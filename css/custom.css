@@ -5,4 +5,29 @@ body {
 h1 {
     font-size:72px;
     font-weight:700px;
+    color:#FF8201;
+}
+h2 {
+    font-size:48px;
+}
+
+.font-alegreya {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.font-roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text-orange {
+    color:#FF8201;
+}
+.custom-btn {
+    background:#FF8201;
+    color:#FFF;
+}
+.text-green {
+    color:#007DA9;
+}
+.text-black {
+    color:#444444;
 }

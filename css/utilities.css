@@ -75,13 +75,27 @@
 .display-991 {
     display:none;
 }
+.display-1200 {
+    display:none;
+}
 
+@media (max-width:1200px) {
+    .hide-1200 {
+        display:none;
+    }
+    .display-1200 {
+        display:inherit;
+    }
+}
 @media (max-width:991px) {
     .display-991 {
         display:inherit;
     }
     .hide-991 {
         display:none;
+    }
+    .center-991 {
+        text-align:center;
     }
 }
 

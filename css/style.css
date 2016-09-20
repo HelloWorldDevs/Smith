@@ -3012,7 +3012,6 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	color: #EEE;
 	font-size: 22px;
 	font-weight: 300;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
 	-webkit-transition: top .3s ease;
 	-o-transition: top .3s ease;
 	transition: top .3s ease;
@@ -3029,11 +3028,9 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 1;
-	margin-bottom: 30px;
 }
 
 .slider-caption p {
-	margin-bottom: 10px;
 }
 
 .slider-caption.slider-caption-right {

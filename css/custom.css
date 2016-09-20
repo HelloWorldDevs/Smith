@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     color:#444;
     font-weight:400;
+    text-shadow:none;
 }
 
 h1, h2, h3, h4,h5,h6 {
@@ -16,6 +17,7 @@ h1 {
     margin-bottom:0;
     line-height:55px;
 }
+
 h2 {
     font-size:48px;
     color:#007DA9;
@@ -36,15 +38,35 @@ h6 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:400
 }
+p {
+    font-size:20px;
+}
+.margin-bottom-10 {
+    margin-bottom:10px;
+}
+.margin-bottom-20 {
+    margin-bottom:30px;
+}
+.font-60 {
+    font-size:60px;
+}
 a {
     color: #FFF;
 }
-
+.transform-none {
+    text-transform:none !important;
+}
+.star {
+    font-size:35px;
+    color:#FFCD00;
+}
 a:hover {
     color:#FFF;
     text-decoration:none;
 }
-
+.text-white {
+    color:#FFF;
+}
 .font-alegreya {
     font-family: 'Alegreya Sans', sans-serif;
 }
@@ -174,4 +196,6 @@ a:hover {
         margin-bottom:20px;
     }
 }
+
+/** END PHONE SLUG **/
 

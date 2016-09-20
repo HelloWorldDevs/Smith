@@ -593,16 +593,29 @@ a:hover {
     color:#777777;
     line-height:21px !important;
 }
+.section-comprehensive-services .title-2 {
+    display:none;
+}
 @media (max-width:1200px) {
     .section-comprehensive-services h4 {
         font-size:22px;
     }
-}
+    .section-comprehensive-services .title-1 {
+        display:none;
+    }
+    .section-comprehensive-services .title-2 {
+        display:inherit;
+    }
 @media (max-width:991px) {
     .section-comprehensive-services .custom-btn {
         margin-bottom:20px;
     }
-}
+    .section-comprehensive-services .title-1 {
+        display:inherit;
+    }
+    .section-comprehensive-services .title-2 {
+        display:none;
+    }
 .section-team-slider {
     background-image:url("images/bedge_grunge_light.jpg");
 }

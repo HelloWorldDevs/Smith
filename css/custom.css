@@ -72,6 +72,9 @@ p {
 .padding-bottom-30 {
     padding-bottom:30px;
 }
+.padding-top-30 {
+    padding-top:30px;
+}
 
 .font-60 {
     font-size:60px;
@@ -252,7 +255,7 @@ a:hover {
     border-right:1px solid #979797;
     height:100%;
     padding-right:10px;
-    padding-bottom:255px;
+    padding-bottom:100px;
 }
 @media (max-width:991px) {
     .picture-caption {
@@ -269,6 +272,64 @@ a:hover {
 }
 
 
+/** OWL CAROUSEL **/
+.owl-carousel .owl-nav [class*=owl-] {
+    top:38%;
+    background-color:#007DA9;
+    color:#FFF;
+    border:1px solid #FFF;
+}
+
+.plus-sign {
+    position:relative;
+    top:36.5%;
+    font-size:72px;
+    color:#FFF;
+    font-weight:400;
+}
+.oc-item h4 {
+    font-size:24px;
+    color:#2F8AA9;
+    font-weight:700;
+    margin-bottom:0;
+}
+.oc-item p {
+    font-size:14px;
+    font-weight:300;
+    color:#2A2A2A;
+}
+.iportfiolio .portfolio-overlay {
+    opacity:.65;
+}
+.portfolio-overlay:hover {
+    cursor:pointer;
+}
+@media (max-width:1199px) {
+    .owl-carousel .owl-nav [class*=owl-] {
+        top: 40%;
+    }
+}
+@media (max-width:991px) {
+    .owl-carousel .owl-nav [class*=owl-] {
+        top: 38%;
+    }
+    .plus-sign {
+        top:33%;
+    }
+}
+
+
+@media (max-width:479px) {
+    .owl-carousel .owl-nav [class*=owl-] {
+        top: 36%;
+    }
+}
+
+/** END OWL CAROUSEL **/
+
+.section-team-slider {
+    background: #F2F0ED;
+}
 /** MEDIA QUERIES **/
 
 @media (max-width:1160px) {

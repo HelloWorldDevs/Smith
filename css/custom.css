@@ -51,6 +51,12 @@ p {
 .margin-bottom-10 {
     margin-bottom:10px;
 }
+.margin-bottom-15 {
+    margin-bottom:15px;
+}
+.margin-bottom-20 {
+    margin-bottom:20px;
+}
 .margin-bottom-30 {
     margin-bottom:30px;
 }
@@ -60,11 +66,17 @@ p {
 .margin-bottom-50 {
     margin-bottom:50px;
 }
+.padding-bottom-30 {
+    padding-bottom:30px;
+}
 
 .font-60 {
     font-size:60px;
 }
 
+section h2 {
+    font-weight:700;
+}
 a {
     color: #FFF;
 }
@@ -84,6 +96,9 @@ a:hover {
 }
 .font-alegreya {
     font-family: 'Alegreya Sans', sans-serif;
+}
+.font-14 {
+    font-size:14px;
 }
 .font-roboto {
     font-family: 'Roboto Condensed', sans-serif;
@@ -216,3 +231,31 @@ a:hover {
 
 /** END PHONE SLUG **/
 
+
+/** MEET THE TEAM **/
+
+.section-meet-the-team p {
+    font-size: 16px;
+    color: #777777;
+    line-height:22px !important;
+}
+
+.picture-caption {
+    height:100%;
+    border-right:1px solid #979797;
+    padding-right:10px;
+    padding-bottom:255px;
+}
+@media (max-width:991px) {
+    .picture-caption {
+        border-right:none;
+        padding-bottom:0;
+    }
+    .img-wrap {
+        text-align:center !important;
+        margin-bottom:20px;
+    }
+    .section-meet-the-team h2 {
+        margin-bottom:10px;
+    }
+}

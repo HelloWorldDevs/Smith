@@ -43,9 +43,6 @@
 
     if ($(window).width() < 400) {
         $('.mobile-display .container').removeClass('container');
-    else {
-        $('.mobile-display .container').addClass('container');
-        }
     }
     $(window).resize(function() {
        if ($(window).width() < 480) {
@@ -60,7 +57,7 @@
             $('.mobile-display .container').removeClass('container');
         }
         else {
-            $('.mobile-display .container').addClass('container');
+            $('.mobile-display > div').addClass('container');
         }
     })
 

@@ -48,6 +48,9 @@ p {
 .font-26 {
     font-size:26px;
 }
+#primary-menu-trigger {
+    font-size:40px;
+}
 .margin-bottom-10 {
     margin-bottom:10px;
 }
@@ -94,6 +97,7 @@ a:hover {
 .text-white {
     color:#FFF;
 }
+
 .font-alegreya {
     font-family: 'Alegreya Sans', sans-serif;
 }
@@ -139,6 +143,10 @@ a:hover {
     font-size:20px;
     font-weight:400;
     text-transform:none;
+}
+#primary-menu ul li > a:hover {
+    text-decoration:underline;
+    color:inherit;
 }
 
 #primary-menu > ul:nth-child(1) > li:nth-child(1) > a {
@@ -235,14 +243,14 @@ a:hover {
 /** MEET THE TEAM **/
 
 .section-meet-the-team p {
-    font-size: 16px;
     color: #777777;
+    font-size: 16px;
     line-height:22px !important;
 }
 
 .picture-caption {
-    height:100%;
     border-right:1px solid #979797;
+    height:100%;
     padding-right:10px;
     padding-bottom:255px;
 }
@@ -259,3 +267,26 @@ a:hover {
         margin-bottom:10px;
     }
 }
+
+
+/** MEDIA QUERIES **/
+
+@media (max-width:1160px) {
+    #primary-menu ul li > a {
+        font-size:18px;
+    }
+}
+@media (max-width:1070px) {
+    #primary-menu ul li > a {
+        font-size:16px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+}
+@media (max-width:991px) {
+    #logo img {
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+}
+

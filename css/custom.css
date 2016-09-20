@@ -578,6 +578,21 @@ a:hover {
         margin-bottom:20px;
     }
 }
+
+.section-comprehensive-services {
+    padding-top:50px;
+    padding-bottom:40px;
+}
+.section-comprehensive-services .custom-btn {
+    background:#FFF;
+    color:#007DA9;
+    border-color:#007DA9;
+}
+.section-comprehensive-services p {
+    font-size:16px;
+    color:#777777;
+    line-height:21px !important;
+}
 .section-team-slider {
     background-image:url("images/bedge_grunge_light.jpg");
 }

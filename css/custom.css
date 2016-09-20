@@ -146,11 +146,13 @@ a:hover {
     font-size:20px;
     font-weight:400;
     text-transform:none;
+    letter-spacing:0;
 }
 #primary-menu ul li > a:hover {
     text-decoration:underline;
     color:inherit;
 }
+
 
 #primary-menu > ul:nth-child(1) > li:nth-child(1) > a {
     color:#FF8201;
@@ -298,7 +300,7 @@ a:hover {
     font-weight:300;
     color:#2A2A2A;
 }
-.iportfiolio .portfolio-overlay {
+.portfolio-item:hover .portfolio-overlay, .iportfolio:hover .portfolio-overlay {
     opacity:.65;
 }
 .portfolio-overlay:hover {
@@ -318,7 +320,6 @@ a:hover {
     }
 }
 
-
 @media (max-width:479px) {
     .owl-carousel .owl-nav [class*=owl-] {
         top: 36%;
@@ -328,7 +329,7 @@ a:hover {
 /** END OWL CAROUSEL **/
 
 .section-team-slider {
-    background: #F2F0ED;
+    background-image:url("images/bedge_grunge_light.jpg");
 }
 /** MEDIA QUERIES **/
 

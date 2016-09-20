@@ -273,7 +273,7 @@ a:hover {
 
 @media (max-width:479px) {
     .owl-carousel .owl-nav [class*=owl-] {
-        top: 36%;
+        top: 41%;
     }
 }
 
@@ -596,6 +596,11 @@ a:hover {
 .section-comprehensive-services .title-2 {
     display:none;
 }
+.section-services-slider {
+    padding-top:40px;
+    padding-bottom:30px;
+}
+
 @media (max-width:1200px) {
     .section-comprehensive-services h4 {
         font-size:22px;

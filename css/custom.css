@@ -507,6 +507,8 @@ a:hover {
 .mobile-display {
     padding-top:25px;
     padding-bottom:25px;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 .mobile-display .custom-btn {
     padding-left:50px;
@@ -524,6 +526,17 @@ a:hover {
     font-size:22px;
 }
 
+.mobile-display-2 {
+    background-size:cover;
+    height:auto;
+    background-repeat:no-repeat;
+    display:none;
+}
+@media (max-width:640px) {
+    .mobile-display-2 {
+        display:inherit;
+    }
+}
 @media (max-width:767px) {
     .mobile-display .container {
         margin-left:30px;
@@ -539,33 +552,6 @@ a:hover {
     }
     .mobile-display h3 {
         font-size:36px;
-    }
-}
-@media (max-width:479px) {
-    .mobile-display h1 {
-        font-size:50px;
-    }
-    .mobile-display h3 {
-        font-size:36px;
-    }
-    .mobile-display h4 {
-        font-size:22px;
-    }
-    .mobile-display .container {
-        margin-left:30px;
-        margin-right:30px;
-    }
-}
-
-@media (max-width:400px) {
-    .mobile-display.display-991 > div > div {
-        text-align:center !important;
-    }
-    .mobile-display h1 {
-        font-size:45px;
-    }
-    .mobile-display h3 {
-        font-size:30px;
     }
 }
 .section-team-slider {

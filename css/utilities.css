@@ -25,6 +25,9 @@
 .margin-bottom-50 {
     margin-bottom:50px;
 }
+.margin-bottom-60 {
+    margin-bottom:60px;
+}
 .padding-bottom-30 {
     padding-bottom:30px;
 }
@@ -58,6 +61,18 @@
 
 .display-767 {
     display:none;
+}
+.display-991 {
+    display:none;
+}
+
+@media (max-width:991px) {
+    .display-991 {
+        display:inherit;
+    }
+    .hide-991 {
+        display:none;
+    }
 }
 
 @media (max-width:767px) {

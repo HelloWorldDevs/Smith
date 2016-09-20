@@ -39,11 +39,9 @@
     var HWD = new HelloWorldDevs();
 
     HWD.mailForm('#mail-form', '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Uid Goes Here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
-    /* REMOVES AND ADDS CONTAINER FOR BETTER CENTERING ON MOBILE FOR PHON SLUG *****/
+    /* REMOVES AND ADDS CONTAINER FOR BETTER CENTERING ON MOBILE FOR PHONE SLUG *****/
 
-    if ($(window).width() < 400) {
-        $('.mobile-display .container').removeClass('container');
-    }
+
     $(window).resize(function() {
        if ($(window).width() < 480) {
            $('.phone-slug .container').removeClass('container');
@@ -52,14 +50,17 @@
            $('.phone-slug > div').addClass('container');
        }
     });
-    $(window).resize(function() {
-        if ($(window).width() < 400) {
-            $('.mobile-display .container').removeClass('container');
-        }
-        else {
-            $('.mobile-display > div').addClass('container');
-        }
-    })
+    // if ($(window).width() < 400) {
+    //     $('.mobile-display .container').removeClass('container');
+    // }
+    // $(window).resize(function() {
+    //     if ($(window).width() < 400) {
+    //         $('.mobile-display .container').removeClass('container');
+    //     }
+    //     else {
+    //         $('.mobile-display > div').addClass('container');
+    //     }
+    // })
 
 
 })(jQuery);

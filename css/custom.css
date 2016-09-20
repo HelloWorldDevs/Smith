@@ -554,6 +554,30 @@ a:hover {
         font-size:36px;
     }
 }
+
+.section-dental-implants {
+    padding-top:20px;
+}
+.section-dental-implants .custom-btn {
+    padding-left:75px;
+    padding-right:75px;
+}
+.section-dental-implants p {
+    line-height:22px !important;
+}
+.section-dental-implants > div > div > div.col-md-6.text-white {
+    padding-top:50px;
+}
+@media (max-width:1200px) {
+    .section-dental-implants > div > div > div.col-md-6.text-white {
+        padding-top:0px;
+    }
+}
+@media (max-width:991px) {
+    .section-dental-implants > div > div > div.col-md-6.text-white {
+        margin-bottom:20px;
+    }
+}
 .section-team-slider {
     background-image:url("images/bedge_grunge_light.jpg");
 }

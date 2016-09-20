@@ -42,49 +42,6 @@ h6 {
 p {
     font-size:20px;
 }
-.font-28 {
-    font-size:28px;
-}
-.font-26 {
-    font-size:26px;
-}
-#primary-menu-trigger {
-    font-size:40px;
-}
-.margin-bottom-10 {
-    margin-bottom:10px;
-}
-.margin-bottom-15 {
-    margin-bottom:15px;
-}
-.margin-bottom-20 {
-    margin-bottom:20px;
-}
-.margin-bottom-30 {
-    margin-bottom:30px;
-}
-.margin-bottom-40 {
-    margin-bottom:40px;
-}
-.margin-bottom-50 {
-    margin-bottom:50px;
-}
-.padding-bottom-30 {
-    padding-bottom:30px;
-}
-.padding-top-30 {
-    padding-top:30px;
-}
-.padding-top-50 {
-    padding-top:50px;
-}
-.padding-bottom-50 {
-    padding-bottom:50px;
-}
-
-.font-60 {
-    font-size:60px;
-}
 
 section h2 {
     font-weight:700;
@@ -92,9 +49,7 @@ section h2 {
 a {
     color: #FFF;
 }
-.transform-none {
-    text-transform:none !important;
-}
+
 .star {
     font-size:35px;
     color:#FFCD00;
@@ -103,16 +58,11 @@ a:hover {
     color:#FFF;
     text-decoration:none;
 }
-.text-white {
-    color:#FFF;
-}
 
 .font-alegreya {
     font-family: 'Alegreya Sans', sans-serif;
 }
-.font-14 {
-    font-size:14px;
-}
+
 .font-roboto {
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -134,7 +84,6 @@ a:hover {
 .custom-btn:hover {
     background:#E27101;
 }
-
 
 .text-green {
     color:#007DA9;
@@ -212,9 +161,7 @@ a:hover {
 .phone-slug h6 {
     line-height:13px !important;
 }
-.display-767 {
-    display:none;
-}
+
 
 @media (max-width:767px) {
     .col-sm-6 {
@@ -228,12 +175,6 @@ a:hover {
     }
     .phone-slug .text-phone {
         font-size:40px;
-    }
-    .hide-767 {
-        display:none;
-    }
-    .display-767 {
-        display:inherit;
     }
     .phone-slug p {
         text-transform:capitalize;

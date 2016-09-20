@@ -5,6 +5,7 @@ body {
     text-shadow:none;
 }
 
+
 h1, h2, h3, h4,h5,h6 {
     text-shadow:none;
     font-family: 'Alegreya Sans', sans-serif;
@@ -431,7 +432,48 @@ a:hover {
     }
 }
 
+
 /** END SECTION PATIENT REVIEWS **/
+
+/** SECTION NO INSURANCE **/
+
+.section-no-insurance {
+    padding-top:150px;
+    padding-bottom:150px;
+}
+.section-no-insurance .col-md-6.center > div > p:nth-child(2) {
+    font-size:21px;
+    color:#3E3C3B;
+    margin-bottom:40px;
+}
+.section-no-insurance .bio {
+    margin-top:50px;
+}
+.section-no-insurance h6 {
+    color:#FF8201;
+    font-size:30px;
+}
+.section-no-insurance .custom-btn {
+    padding-left:100px;
+    padding-right:100px;
+}
+.section-no-insurance .p-block {
+    font-weight:300;
+    font-size:18px;
+    color:#3E3C3B;
+}
+.p-block p {
+    margin-bottom:0;
+    line-height:1.5 !important;
+}
+.section-no-insurance h2 {
+    color:#FF8201;
+    margin-bottom:10px;
+}
+
+/* END SECTION NO INSURANCE **/
+
+
 .section-team-slider {
     background-image:url("images/bedge_grunge_light.jpg");
 }

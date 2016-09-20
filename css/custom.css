@@ -458,6 +458,39 @@ a:hover {
 
 
 /** END SPECIALS **/
+
+
+/** SECTION PATIENT REVIEWS **/
+.section-patient-reviews {
+    background-image:url("images/reviews-bkgd.jpg");
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.bf-spn {
+    color:#FFF;
+    font-size:14px;
+}
+.bf-pro {
+    color:#FFF !important;
+}
+.bf-pro:hover {
+    text-decoration:underline !important;
+}
+.section-patient-reviews h2 {
+    color:#FFF;
+}
+@media (max-width:767px) {
+    #bfpublish {
+        max-height:510px;
+    }
+}
+@media (max-width:500px) {
+    #bfpublish {
+        max-height:350px;
+    }
+}
+
+/** END SECTION PATIENT REVIEWS **/
 .section-team-slider {
     background-image:url("images/bedge_grunge_light.jpg");
 }
@@ -471,6 +504,11 @@ a:hover {
 }
 .section-welcome-video h2 {
     line-height:50px !important;
+}
+@media (max-width:479px) {
+    .section-welcome-video h2 {
+        font-size:36px;
+    }
 }
 /** MEDIA QUERIES **/
 @media (max-width:1210px) {
@@ -502,6 +540,17 @@ a:hover {
     .section-welcome-video .video-wrap {
        text-align:center;
         padding-bottom:30px;
+    }
+}
+@media (max-width:479px) {
+    section h2 {
+        font-size:40px;
+    }
+}
+@media (max-width:350px) {
+    .custom-btn {
+        padding-left:15px;
+        padding-right:15px;
     }
 }
 

@@ -7,6 +7,12 @@
 #primary-menu-trigger {
     font-size:40px;
 }
+.text-hover:hover {
+    text-decoration:underline;
+}
+.margin-bottom-5 {
+    margin-bottom:5px;
+}
 .margin-bottom-10 {
     margin-bottom:10px;
 }
@@ -19,6 +25,7 @@
 .margin-bottom-30 {
     margin-bottom:30px;
 }
+
 .margin-bottom-40 {
     margin-bottom:40px;
 }
@@ -95,6 +102,9 @@
         display:none;
     }
     .center-991 {
+        text-align:center;
+    }
+    .center-mobile {
         text-align:center;
     }
 }

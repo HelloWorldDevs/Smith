@@ -259,7 +259,7 @@ a:hover {
 }
 @media (max-width:1199px) {
     .owl-carousel .owl-nav [class*=owl-] {
-        top: 40%;
+        top: 44%;
     }
 }
 @media (max-width:991px) {
@@ -603,24 +603,30 @@ a:hover {
 
 @media (max-width:1200px) {
     .section-comprehensive-services h4 {
-        font-size:22px;
+        font-size: 22px;
     }
+
     .section-comprehensive-services .title-1 {
-        display:none;
+        display: none;
     }
+
     .section-comprehensive-services .title-2 {
-        display:inherit;
+        display: inherit;
     }
+}
 @media (max-width:991px) {
     .section-comprehensive-services .custom-btn {
-        margin-bottom:20px;
+        margin-bottom: 20px;
     }
+
     .section-comprehensive-services .title-1 {
-        display:inherit;
+        display: inherit;
     }
+
     .section-comprehensive-services .title-2 {
-        display:none;
+        display: none;
     }
+}
 .section-team-slider {
     background-image:url("images/bedge_grunge_light.jpg");
 }
@@ -635,10 +641,44 @@ a:hover {
 .section-welcome-video h2 {
     line-height:50px !important;
 }
+
 @media (max-width:479px) {
     .section-welcome-video h2 {
         font-size:36px;
     }
+}
+
+#contact-form-overlay, #contact-form-overlay-mini {
+    border-radius:12px !important;
+}
+.section-contact img {
+    width:80%;
+}
+.section-contact p {
+    font-size:18px;
+    color:#202020;
+    font-weight:300;
+    line-height:22px !important;
+}
+.text-light-green {
+    color:#518A13 !important;
+}
+.section-contact .text-phone {
+    font-size:36px;
+    font-weight:700;
+    color:#FF8201;
+}
+.float-right-non-mobile {
+    float:right;
+}
+
+.section-contact .text-phone-2 {
+    font-size:24px;
+    font-weight:700;
+    color:#FF8201;
+}
+.copy-footer {
+    background:#007DA9 !important;
 }
 /** MEDIA QUERIES **/
 @media (max-width:1210px) {
@@ -671,10 +711,33 @@ a:hover {
        text-align:center;
         padding-bottom:30px;
     }
+    .copy-text {
+        margin-bottom:10px;
+    }
+    .float-right-non-mobile {
+        float:none;
+        text-align:center;
+        padding-left:42%;
+    }
 }
+@media (max-width:767px) {
+    .float-right-non-mobile {
+        float:none;
+        text-align:center;
+        padding-left:38%;
+    }
+}
+
+
 @media (max-width:479px) {
     section h2 {
         font-size:40px;
+    }
+
+}
+@media (max-width:401px) {
+    .float-right-non-mobile {
+        padding-left:32.5%;
     }
 }
 @media (max-width:350px) {
@@ -683,4 +746,5 @@ a:hover {
         padding-right:15px;
     }
 }
+
 

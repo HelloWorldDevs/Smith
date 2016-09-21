@@ -748,6 +748,39 @@
                     </div>
                 </div>
             </section>
+            <section id="contact" class="section-contact full-screen section nopadding nomargin noborder ohidden">
+                <div class="vertical-middle">
+                    <div class="container clearfix">
+
+                        <!-- Contact Form Overlay
+                        ============================================= -->
+                        <div id="contact-form-overlay-mini" class="clearfix">
+
+                            <div class="img-wrap center">
+                                <img src="images/logo-retina.png" alt="Logo">
+                            </div>
+                            <div class="center">
+                                <p class="nobottommargin">4506 SE King Road </p>
+                                <p class="margin-bottom-20">Milwaukie, OR 97222</p>
+                                <a href="#" target="_blank"><p class="text-light-green margin-bottom-30 text-hover">Click to view map</p></a>
+                                <p class="margin-bottom-10">New Patient Hotline</p>
+                                <a href="tel:+18886155889"><p class="text-phone t700 margin-bottom-20 text-orange">(888) 615-5889</p></a>
+                                <a class="btn button custom-btn margin-bottom-20">REQUEST APPOINTMENT</a>
+                                <p class="nobottommargin margin-bottom-10">Existing Patients Call</p>
+                                <a href="tel:+12625230220"><p class="text-phone-2">(262) 523-0220</p></a>
+                            </div>
+
+
+                        </div><!-- Contact Form Overlay End -->
+
+                    </div>
+                </div>
+
+                <!-- Google Map
+                ============================================= -->
+                <section id="google-map" class="gmap full-screen"></section>
+
+            </section>
 
         </div>
 
@@ -767,14 +800,31 @@
 
         <!-- Copyrights
         ============================================= -->
-        <div id="copyrights">
-
-            <div class="container clearfix">
-
-
+        <div id="copyrights" class="copy-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-white copy-text center-mobile">Copyright © <script>document.write(+new Date().getFullYear());</script> All Rights Reserved by <a style="color:inherit;" class="text-hover" href="http://www.tysonsteele.com" target="_blank">Tyson&nbsp;Steele&nbsp;Associates</a>.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="float-right-non-mobile icons">
+                            <a href="#" target="_blank" style="background:#3B5998;color:#FFF;" class="social-icon si-small si-borderless si-facebook">
+                                <i class="icon-facebook"></i>
+                                <i class="icon-facebook"></i>
+                            </a>
+                            <a style="color:#FFF;background:#dd4b39;" href="#" target="_blank" class="social-icon si-small si-borderless si-gplus">
+                                <i class="icon-gplus" ></i>
+                                <i class="icon-gplus"></i>
+                            </a>
+                            <a style="color:#FFF;background:#4099FF;" href="#" target="_blank" class="social-icon si-small si-borderless si-twitter">
+                                <i class="icon-twitter"></i>
+                                <i class="icon-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-        </div><!-- #copyrights end -->
+        </div>
 
     </footer><!-- #footer end -->
 
@@ -811,27 +861,18 @@
 <!-- Google Map Script
     ========================= -->
 <script>
-    var map, map2;
+    var map;
     function initMap() {
-        var myLatLng = {lat: 38.914417, lng: -120.001949};
-        var myLatLng2 = {lat: 38.969066, lng: -119.928776};
+        var myLatLng = {lat: 43.049745, lng: -88.220552};
         map = new google.maps.Map(document.getElementById('google-map'), {
             center: myLatLng,
-            zoom: 16
+            zoom: 17,
+            scrollwheel: false
         });
-        map2 = new google.maps.Map(document.getElementById('google-map-2'), {
-            center: {lat: 38.969066, lng: -119.928776},
-            maptype: 'ROADMAP',
-            zoom: 16,
-        });
+
         var marker = new google.maps.Marker({
             position: myLatLng,
             map: map,
-            title: 'Hello World!'
-        });
-        var marker2 = new google.maps.Marker({
-            position: myLatLng2,
-            map: map2,
             title: 'Hello World!'
         });
     }

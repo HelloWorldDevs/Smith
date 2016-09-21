@@ -110,17 +110,17 @@ a:hover {
 }
 
 
-#primary-menu > ul:nth-child(1) > li:nth-child(1) > a {
+#primary-menu > ul:nth-child(1) > li:nth-child(1) > a, #primary-menu > ul.mobile-primary-menu.sf-js-enabled.show > li:nth-child(1) > a {
     color:#FF8201;
 }
-#primary-menu > ul:nth-child(1) > li:nth-child(2) > a {
+#primary-menu > ul:nth-child(1) > li:nth-child(2) > a, #primary-menu > ul.mobile-primary-menu.sf-js-enabled.show > li:nth-child(2) > a {
     color:#0090B8;
 }
-#primary-menu > ul:nth-child(1) > li:nth-child(3) > a {
+#primary-menu > ul:nth-child(1) > li:nth-child(3) > a, #primary-menu > ul.mobile-primary-menu.sf-js-enabled.show > li:nth-child(3) > a {
     color:#444444;
 }
 
-#primary-menu > ul:nth-child(1) > li:nth-child(4) > a, #primary-menu > ul:nth-child(1) > li:nth-child(5) > a, #primary-menu > ul:nth-child(1) > li:nth-child(6) > a {
+#primary-menu > ul:nth-child(1) > li:nth-child(4) > a, #primary-menu > ul:nth-child(1) > li:nth-child(5) > a, #primary-menu > ul:nth-child(1) > li:nth-child(6) > a, #primary-menu > ul.mobile-primary-menu.sf-js-enabled.show > li:nth-child(4) > a, #primary-menu > ul.mobile-primary-menu.sf-js-enabled.show > li:nth-child(5) > a, #primary-menu > ul.mobile-primary-menu.sf-js-enabled.show > li:nth-child(6) > a {
     color:#777;
 }
 #header-wrap {
@@ -283,7 +283,7 @@ a:hover {
 /** SPECIALS **/
 
 .section-specials {
-    padding-top:40px;
+    padding-top:50px;
     padding-bottom:20px;
     background:#F2F0ED;
 }

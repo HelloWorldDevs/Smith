@@ -677,6 +677,19 @@ a:hover {
     font-weight:700;
     color:#FF8201;
 }
+@media (max-width:479px) {
+    .section-contact .text-phone {
+        font-size:30px;
+    }
+    .section-contact .custom-btn {
+        padding-left:10px;
+        padding-right:10px;
+    }
+    #contact-form-overlay, #contact-form-overlay-mini {
+        padding-left:20px;
+        padding-right:20px;
+    }
+}
 .copy-footer {
     background:#007DA9 !important;
 }

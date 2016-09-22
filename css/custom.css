@@ -407,6 +407,18 @@ a:hover {
 
 /** END SPECIALS **/
 
+
+/** SERVICES MODALS **/
+
+.services-modals .modal-body.team__modal-pic > div {
+    text-align:center;
+    margin-bottom:10px;
+}
+@media (max-width:768px) {
+    .services-modals .modal-body.team__modal-pic > div {
+        display:none;
+    }
+}
 /** CONTACT MODAL **/
 .form-error {
     color: #D56724;

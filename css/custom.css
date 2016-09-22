@@ -410,6 +410,10 @@ a:hover {
 .social-icon.si-small {
     margin-left:10px;
 }
+.icon-arrow-down {
+    position:relative;
+    top:-20px;
+}
 /** SECTION PATIENT REVIEWS **/
 .section-patient-reviews {
     background-image:url("images/reviews-bkgd.jpg");

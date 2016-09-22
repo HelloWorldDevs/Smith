@@ -267,6 +267,9 @@ a:hover {
     .owl-carousel .owl-nav [class*=owl-] {
         top: 44%;
     }
+    .section-team-slider .owl-carousel .owl-nav [class*=owl-] {
+        top:39%;
+    }
 }
 @media (max-width:991px) {
     .owl-carousel .owl-nav [class*=owl-] {
@@ -274,6 +277,9 @@ a:hover {
     }
     .plus-sign {
         top:33%;
+    }
+    .section-team-slider .owl-carousel .owl-nav [class*=owl-] {
+        top:37%;
     }
 }
 

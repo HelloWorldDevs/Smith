@@ -428,6 +428,15 @@ a:hover {
     }
 }
 
+@media (max-width:479px) {
+    .section-specials h2 {
+        font-size:44px;
+    }
+    #summer-specials > div > div:nth-child(1) > div > div > p {
+        font-size:20px;
+    }
+}
+
 
 /** END SPECIALS **/
 
@@ -693,6 +702,16 @@ h4.modal-title {
     letter-spacing:0;
     width:90%;
 }
+@media (max-width:991px) {
+    .section-comprehensive-services .custom-btn {
+        width:inherit;
+        text-align:center;
+    }
+    .section-comprehensive-services div.row > div:nth-child(3) > div, .section-comprehensive-services div.row > div:nth-child(2) > div {
+        text-align:center;
+    }
+
+}
 .section-comprehensive-services .custom-btn:hover {
     background:#EEEEEE;
 }
@@ -760,7 +779,7 @@ h4.modal-title {
     }
 }
 
-.comprehensive-services img {
+.section-comprehensive-services img {
     margin-bottom:20px;
 }
 #contact-form-overlay, #contact-form-overlay-mini {

@@ -84,6 +84,7 @@ a:hover {
 }
 .custom-btn:hover {
     background:#E27101;
+    text-shadow:none;
 }
 
 .text-green {

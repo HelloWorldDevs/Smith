@@ -232,6 +232,9 @@ a:hover {
     color:#FFF;
     border:1px solid #FFF;
 }
+.owl-carousel .owl-nav [class*=owl-]:hover {
+    background-color:#008CBE;
+}
 
 .plus-sign {
     position:relative;
@@ -401,7 +404,9 @@ a:hover {
 
 /** END SPECIALS **/
 
-
+.social-icon.si-small {
+    margin-left:10px;
+}
 /** SECTION PATIENT REVIEWS **/
 .section-patient-reviews {
     background-image:url("images/reviews-bkgd.jpg");
@@ -653,6 +658,7 @@ a:hover {
 }
 .section-contact img {
     width:80%;
+    margin-bottom:10px;
 }
 .section-contact p {
     font-size:18px;

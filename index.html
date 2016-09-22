@@ -100,7 +100,7 @@
                                 <h1 data-caption-animate="fadeInUp">Beautiful Smiles</h1>
                                 <h3 data-caption-animate="fadeInUp" data-caption-delay="200"> by Dr. Matt Smith</h3>
                                 <h4 data-caption-animate="fadeInUp" data-caption-delay="200" class="text-black">NOW WELCOMING NEW PATIENTS</h4>
-                                <a class="btn button custom-btn" data-caption-animate="fadeInUp" data-caption-delay="200">NEW PATIENT OFFERS</a>
+                                <a class="btn button custom-btn" data-caption-animate="fadeInUp" data-caption-delay="200" href="#" data-scrollto="#summer-specials" data-offset="40">NEW PATIENT OFFERS</a>
                             </div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
                             <div class="text-phone"><a href="tel:+18886155889">(888) 615&#8209;5889</a></div>
                         </div>
                         <div class="col-sm-6 tleft">
-                            <a class="btn button custom-btn">REQUEST APPOINTMENT</a>
+                            <a class="btn button custom-btn" data-toggle="modal" data-target="#contact-modal">REQUEST APPOINTMENT</a>
                         </div>
                     </div>
                     <div class="row center">
@@ -485,7 +485,7 @@
                             <div class="text-phone"><a href="tel:+18886155889">(888) 615&#8209;5889</a></div>
                         </div>
                         <div class="col-sm-6 tleft">
-                            <a class="btn button custom-btn">REQUEST APPOINTMENT</a>
+                            <a class="btn button custom-btn" data-toggle="modal" data-target="#contact-modal">REQUEST APPOINTMENT</a>
                         </div>
                     </div>
                 </div>
@@ -773,7 +773,7 @@
                                 <a href="#" target="_blank"><p class="text-light-green margin-bottom-30 text-hover">Click to view map</p></a>
                                 <p class="margin-bottom-10">New Patient Hotline</p>
                                 <a href="tel:+18886155889"><p class="text-phone t700 margin-bottom-20 text-orange">(888) 615-5889</p></a>
-                                <a class="btn button custom-btn margin-bottom-20">REQUEST APPOINTMENT</a>
+                                <a class="btn button custom-btn margin-bottom-20" data-toggle="modal" data-target="#contact-modal">REQUEST APPOINTMENT</a>
                                 <p class="nobottommargin margin-bottom-10">Existing Patients Call</p>
                                 <a href="tel:+12625230220"><p class="text-phone-2">(262) 523-0220</p></a>
                             </div>
@@ -838,8 +838,55 @@
 
 </div><!-- #wrapper end -->
 
-<!-- Go To Top
+<!-- Modals
 ============================================= -->
+
+<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <h4 class="modal-title">Request an Appointment</h4>
+        </div>
+        <div class="modal-body">
+            <div class="form-error"></div><form id="mail-form" method="post" action="//web-api.tysonsteele.com/v1/webprops/KEY/schedule">
+            <h5>YES! Please contact me to schedule an appointment or answer any questions I might still have:</h5>
+            <div class="row appointment_input_row form-group">
+                <div class="col-xs-4">
+                    <label for="name">Name:</label>
+                </div>
+                <div class="col-xs-8">
+                    <input type="text" name="name" id="name" class="form-control appointment_form">
+                </div>
+            </div>
+            <div class="row appointment_input_row form-group honeypot_container sr-only">
+                <div class="col-xs-4">
+                    <label for="email">Leave this field blank:</label>
+                </div>
+                <div class="col-xs-8">
+                    <input type="email" name="email" id="email" class="form-control appointment_form">
+                </div>
+            </div>
+            <div class="row appointment_input_row form-group">
+                <div class="col-xs-4">
+                    <label for="confirmed_email">Email:</label>
+                </div>
+                <div class="col-xs-8">
+                    <input type="email" name="confirmed_email" id="confirmed_email" class="form-control appointment_form">
+                </div>
+            </div>
+            <div class="row appointment_input_row form-group">
+                <div class="col-xs-4">
+                    <label for="phone">Phone:</label>
+                </div>
+                <div class="col-xs-8">
+                    <input type="text" name="phone" id="phone" class="form-control appointment_form">
+                </div>
+            </div>
+            <a type="submit" class="btn button custom-btn" data-toggle="modal" data-target="#contact-modal">Request Appointment</a>
+        </form>
+        </div>
+    </div>
+</div>
 
 <!-- JS Templates
 		====================== -->

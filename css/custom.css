@@ -407,6 +407,28 @@ a:hover {
 
 /** END SPECIALS **/
 
+/** CONTACT MODAL **/
+
+
+h4.modal-title {
+    font-size:22px;
+}
+.modal h5 {
+    font-size:14px;
+}
+.modal-header .close {
+    margin-top:-10px;
+}
+
+#contact-modal .modal-dialog {
+    background:#FFF;
+    border-radius:5px;
+}
+
+
+
+/** END CONTACT MODAL **/
+
 .social-icon.si-small {
     margin-left:10px;
 }

@@ -410,13 +410,16 @@ a:hover {
 
 /** SERVICES MODALS **/
 
-.services-modals .modal-body.team__modal-pic > div {
+.services-modals .modal-body.team__modal-pic > div, .team-modals .modal-body.team__modal-pic > div {
     text-align:center;
     margin-bottom:10px;
 }
 @media (max-width:768px) {
-    .services-modals .modal-body.team__modal-pic > div {
+    .services-modals .modal-body.team__modal-pic > div, .team-modals .modal-body.team__modal-pic > div {
         display:none;
+    }
+    .team-modals p, .services-modals p {
+        font-size:15px;
     }
 }
 /** CONTACT MODAL **/
@@ -717,6 +720,9 @@ h4.modal-title {
     }
 }
 
+.comprehensive-services img {
+    margin-bottom:20px;
+}
 #contact-form-overlay, #contact-form-overlay-mini {
     border-radius:12px !important;
 }
@@ -820,7 +826,7 @@ h4.modal-title {
 }
 @media (max-width:401px) {
     .float-right-non-mobile {
-        padding-left:32.5%;
+        padding-left:28.5%;
     }
 }
 @media (max-width:350px) {

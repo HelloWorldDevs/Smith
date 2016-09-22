@@ -87,6 +87,8 @@ a:hover {
     text-shadow:none;
 }
 
+
+
 .text-green {
     color:#007DA9;
 }
@@ -411,7 +413,7 @@ a:hover {
 /** SECTION PATIENT REVIEWS **/
 .section-patient-reviews {
     background-image:url("images/reviews-bkgd.jpg");
-    padding-top:20px;
+    padding-top:50px;
     padding-bottom:20px;
 }
 .bf-spn {
@@ -593,6 +595,9 @@ a:hover {
     background:#FFF;
     color:#007DA9;
     border-color:#007DA9;
+}
+.section-comprehensive-services .custom-btn:hover {
+    background:#EEEEEE;
 }
 .section-comprehensive-services p {
     font-size:16px;

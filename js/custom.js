@@ -69,9 +69,7 @@
     // })
     $('.mobile-primary-menu a').click(function () {
         if ($('#primary-menu').find('ul.mobile-primary-menu').length > 0) {
-            $('#primary-menu > ul.mobile-primary-menu, #primary-menu > div > ul.mobile-primary-menu').toggleClass("show");
-        } else {
-            $('#primary-menu > ul, #primary-menu > div > ul').toggleClass("show");
+            $('ul.mobile-primary-menu').toggleClass("show");
         }
     });
 

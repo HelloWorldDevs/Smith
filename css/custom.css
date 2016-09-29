@@ -90,7 +90,7 @@ a:hover {
 
 
 .text-green {
-    color:#007DA9;
+    color:#007DA9 !important;
 }
 .text-black {
     color:#444444;

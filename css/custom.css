@@ -953,3 +953,7 @@ h4.modal-title {
 .swiper_wrapper:not(.force-full-screen), .swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide, .ei-slider {
     height:auto !important;
 }
+.device-xs #patient-reviews .container, .device-xxs #patient-reviews .container {
+    padding-left:40px;
+    padding-right:40px;
+}

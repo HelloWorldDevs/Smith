@@ -214,16 +214,29 @@ a:hover {
     padding-bottom:255px;
 }
 @media (max-width:991px) {
-    .picture-caption {
-        border-right:none;
-        padding-bottom:0;
-    }
     .img-wrap {
         text-align:center !important;
         margin-bottom:20px;
     }
     .section-meet-the-team h2 {
         margin-bottom:10px;
+    }
+    .picture-caption {
+        padding-bottom:475px;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    #meet-the-team > div > div.row > div.col-sm-9 > div:nth-child(4) {
+        display: none;
+    }
+}
+@media (max-width:767px) {
+    .picture-caption {
+        border-right:none;
+        padding-bottom:0;
+    }
+    .meet-the-team .row.hide-991 {
+        display:block !important;
     }
 }
 
@@ -930,6 +943,9 @@ h4.modal-title {
     }
     #slide-2 h2 {
         font-size:50px;
+    }
+    .section-meet-the-team p {
+        font-size:15px;
     }
 
 }

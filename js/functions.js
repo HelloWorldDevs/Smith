@@ -2250,8 +2250,8 @@ var SEMICOLON = SEMICOLON || {};
 							slider.parent().removeClass('preloader2');
 							var t = setTimeout( function(){ $('.grid-container').isotope('layout'); }, 1200 );
 							SEMICOLON.initialize.lightbox();
-							$('.flex-prev').html('<i class="icon-angle-left"></i>');
-							$('.flex-next').html('<i class="icon-angle-right"></i>');
+							$('.flex-prev').html('<i class="fa fa fa-chevron-right"></i>');
+							$('.flex-next').html('<i class="fa fa fa-chevron-right"></i>');
 							SEMICOLON.portfolio.portfolioDescMargin();
 						},
 						after: function(){
@@ -3011,7 +3011,7 @@ var SEMICOLON = SEMICOLON || {};
 					center: elementCenter,
 					lazyLoad: elementLazy,
 					nav: elementNav,
-					navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+					navText: ['<i class=" icon-chevron-left"></i>','<i class=" icon-chevron-right"></i>'],
 					autoplay: elementAutoPlay,
 					autoplayTimeout: elementAutoPlayTime,
 					autoplayHoverPause: true,

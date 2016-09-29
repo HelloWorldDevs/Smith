@@ -533,13 +533,13 @@ h4.modal-title {
     text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
 }
 @media (max-width:767px) {
-    #bfpublish {
-        max-height:510px;
+    #bfpublish, iframe {
+        max-height:510px !important;
     }
 }
 @media (max-width:500px) {
-    #bfpublish {
-        max-height:350px;
+    #bfpublish, iframe {
+        max-height:350px !important;
     }
 }
 
@@ -910,5 +910,6 @@ h4.modal-title {
         padding-right:15px;
     }
 }
+
 
 

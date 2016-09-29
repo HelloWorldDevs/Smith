@@ -950,3 +950,6 @@ h4.modal-title {
 
 }
 
+.swiper_wrapper:not(.force-full-screen), .swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide, .ei-slider {
+    height:auto !important;
+}

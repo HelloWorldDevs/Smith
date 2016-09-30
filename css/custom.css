@@ -960,3 +960,10 @@ h4.modal-title {
 #bf-revz-widget-2563653231 > div > span {
     line-height:20px !important;
 }
+
+@media (min-width:768px) {
+
+    .owl-carousel .owl-nav [class*=owl-] {
+        opacity: 1;
+    }
+}

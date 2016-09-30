@@ -527,6 +527,9 @@ h4.modal-title {
     background-image:url("images/reviews-bkgd.jpg");
     padding-top:50px;
     padding-bottom:20px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
 }
 .bf-spn {
     color:#FFF;

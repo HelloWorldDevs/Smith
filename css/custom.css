@@ -973,3 +973,6 @@ h4.modal-title {
 .padding-left-15 {
     padding-left:15px;
 }
+#google-map, #contact {
+    max-height:720px;
+}
